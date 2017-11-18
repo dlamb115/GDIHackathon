@@ -10,10 +10,13 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+    
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" rel="stylesheet">
+
+    <!-- rock paper scissors script -->
+    <script src="rock/rock_paper_scissors.js"></script>
   </head>
 
   <body>
@@ -30,20 +33,15 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="programs.html">Programs</a>
+            <a class="nav-link" href="programs.html">Our Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="play.html">Games</a>
+            <a class="nav-link" href="memory.html">Minion Match</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="parents.html">For Parents</a>
+            <a class="nav-link" href="rock.html">Rock/Paper/Scissors</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="programs.html">Calendar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="outreach.html">Outreach</a>
-          </li>
+          
          <!--  <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -60,16 +58,37 @@
       </div>
     </nav>
 
-    <main role="main">
+    <main role="main" style="margin-top: 100px; padding-left: 100px;">
 
+       <img src="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-rockpaper.jpg?itok=4WUMt1oc" alt="..." class="img-thumbnail" width="30%" style="float: right; margin-right: 200px;">
+
+    <h2>Play Rock, Paper, Scissors</h2>
+
+    <p>Think you can beat the computer? Try your luck!</p>
+
+
+
+    <form onsubmit="playGame()">
+      <br />
+      <input type="submit" class="btn btn-primary" value="Play Now &raquo;" >
+    </form>
+    
+    <br />
+    <br />
+    <br />
+    <br />
+
+      
      
+
+
 
       <!-- /container -->
 
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017</p>
+      <p> Team 6 &copy;2017</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
